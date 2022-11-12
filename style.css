@@ -1,0 +1,67 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.imginfo {
+  display: flex;
+  background-color: white;
+  width: 1000px;
+  height: 700px;
+  margin: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px 20px 20px 20px;
+}
+img {
+  border-radius: 20px 0px 0px 20px;
+}
+.information {
+  padding: 50px;
+}
+.Gabriele {
+  font-size: 45px;
+  font-family: "Fraunces", serif;
+}
+.floral {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: hsl(228, 12%, 48%);
+}
+.price {
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+  color: hsl(158, 36%, 37%);
+}
+.prices
+{
+  display: flex;
+  align-items: center;
+}
+.lastprice{
+  margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+button{
+  border-radius: 20px 20px 20px 20px;
+  background-color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  border: 0;
+  border-radius: 10px;
+  color:white;
+  width: 450px;
+  height: 100px;
+}
+.shoppingcart
+{
+  width: 30px;
+  margin-right: 20px;
+  transform: scale(-1, 1)
+}
+.perfume
+{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: hsl(228, 12%, 48%);
+}
